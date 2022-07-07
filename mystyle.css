@@ -1,0 +1,106 @@
+body{
+    background-image: url('https://image.shutterstock.com/image-illustration/3d-wallpaper-design-waterfall-sea-260nw-2066711531.jpg');
+    height: 100%;
+    width: 100%;
+}
+.topnav {
+    background-color: #d3edff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #004e83;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0468aa;
+    color: white;
+  }
+  .div2{
+    margin-top: 1%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .div3{
+    text-align: center;
+    background-color: #153d5a;
+    color: rgb(238, 238, 238);
+    font-size: medium;
+  }
+  h1{
+      background-color: #d3edff;
+      color: black;
+      text-align: center;
+  }
+  p{
+      font-size: x-large;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50% auto 30px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(167, 232, 232) , rgb(179, 238, 238)); 
+    margin-top: 20px;
+  }
+  #container2
+{
+    display: flex;
+}
+#cl
+{
+    background-color: crimson;
+    background-image: linear-gradient(to right, rgb(61, 177, 177) , rgb(179, 238, 238));    
+    display: flex;
+}
+#kite
+{
+    border:solid;
+    border-radius:43px;
+    background-image:url("Screenshot\ \(165\).png");
+    background-size:400px 200px ;
+}
+#a
+{
+    background-color: rgb(249, 255, 187);
+            border:solid;
+            border-color: rgb(196, 5, 116);
+            border-radius:24px;
+            height: 300px;
+            width: 350px;
+            padding:19px;
+            margin: 50px;
+            margin-top: 40px;
+}
+#heading
+{
+    font-size:35px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: cornsilk;
+}
